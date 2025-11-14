@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "@/app/components/Section";
-import imageMeeting from "@/images/meeting.jpg";
+import imageMeeting from "../images/meeting.jpg";
 import List, { ListItem } from "@/app/components/List";
 
 const Deliver = () => {
@@ -8,31 +8,26 @@ const Deliver = () => {
     <Section title="Deliver" image={{ src: imageMeeting, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{" "}
+          As we approach the launch date, we are meticulous about quality assurance and final adjustments to meet your
           <strong className="font-semibold text-neutral-950">
             requirements
           </strong>
-          . This allows us to increase the budget a final time before launch.
+          . Our goal is a seamless and successful deployment.
         </p>
         <p>
-          Despite largely using pre-built components, most of the{" "}
-          <strong className="font-semibold text-neutral-950">progress</strong>{" "}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
+          We believe in iterative development and continuous
+          <strong className="font-semibold text-neutral-950">progress</strong>. Our team works diligently throughout the project lifecycle to ensure a high-quality product, not just at the last minute.
         </p>
         <p>
-          We ensure that the main pages of the site are{" "}
+          We ensure that all aspects of the project are
           <strong className="font-semibold text-neutral-950">
             fully functional
-          </strong>{" "}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{" "}
+          </strong>
+          at launch. Post-launch, we offer comprehensive
           <strong className="font-semibold text-neutral-950">
             maintenance
-          </strong>{" "}
-          retainer.
+          </strong>
+          and support plans to ensure your continued success.
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
@@ -40,16 +35,13 @@ const Deliver = () => {
       </h3>
       <List>
         <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+          Our projects undergo rigorous testing across multiple devices and browsers to ensure a flawless user experience.
         </ListItem>
         <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
+          We deploy on scalable, secure, and reliable infrastructure to ensure your application is always available and performant.
         </ListItem>
         <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+          Our team provides ongoing support and maintenance to handle updates, security, and any new challenges that arise.
         </ListItem>
       </List>
     </Section>
