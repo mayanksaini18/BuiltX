@@ -1,7 +1,7 @@
-import ContactDetails from "../../components/ContactDetails";
-import ContactForm from "../../components/ContactForm";
-import Container from "../../components/Container";
-import PageIntro from "../../components/PageIntro";
+import ContactDetails from "../components/ContactDetails";
+import ContactForm from "../components/ContactForm";
+import Container from "../components/Container";
+import PageIntro from "../components/PageIntro";
 
 const ContactPage = () => {
   return (
