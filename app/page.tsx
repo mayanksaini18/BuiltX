@@ -12,13 +12,12 @@ export default function Home() {
       <Container className="mt-24 sm:mt-32">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 text-balance sm:text-7xl">
-            Make your online presence a reality with us!
+            Elevating Brands with Content, Strategy, and Web Solutions.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a premier digital agency specializing in content creation,
-            strategic digital marketing, and bespoke web solutions. We partner
-            with brands to build a powerful online presence that drives growth
-            and engagement.
+            We are a content marketing agency that partners with brands to
+            deliver powerful brand strategy and bespoke web solutions, building
+            an online presence that drives growth and engagement.
           </p>
         </FadeIn>
       </Container>
